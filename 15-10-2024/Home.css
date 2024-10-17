@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: url("https://tse3.mm.bing.net/th?id=OIP.glV1TGq5tljjPkhgOW2pOAHaCM&pid=Api&P=0&h=180");
+  background-repeat: no-repeat;
+  background-size: 5000px;
+}
+.head{
+  
+  background-color: transparent;
+  height: 100px;
+  color:white;
+  text-align: center;
+  padding-top: 30px;
+  
+}
+.login{
+  padding: 25px;
+  text-align: center;
+}
+.login button{
+  background-color: bisque; 
+  font-weight: bold; 
+  border-radius: 40px; 
+  width: 150px;
+  height: 40px;
+  border:none;
+}
+.login button:hover{
+  cursor: pointer;
+  background-color: rgb(251, 191, 119);
+}
+.navi{
+  
+  height:48px;
+  margin-top:13px;
+  margin-left: 720px;
+}
+.navi a{
+  padding: 18px;
+ 
+  background-color: bisque;
+  color: black;
+  border-radius: 30px;
+  font-weight: bold;
+
+}
+.navi nav{
+  margin-top: 10px;
+  margin-left: 1100px;
+  
+}
+.navi a:hover{
+  background-color: rgb(251, 191, 119);
+}
+.cont1{
+  border:2px solid black;
+  height: 300px;
+  margin: 20px;
+  border:none;
+}
+.cont2{
+  padding:20px;
+  border: 2px solid black;
+  height:500px;
+  background-color: rgb(21, 18, 18);
+  color:white;
+  width:100%;
+}
+.cont2 a{
+  margin:140px;
+  border: 2px solid black;
+  line-height: 100px;
+}
+.bord{
+  border:1px solid rgb(238, 236, 236);
+  margin:30px;
+  width:100%;
+  margin-left: -12px;
+}
+.sign{
+  border:1px solid white;
+  width:100%;
+  background-color: white;
+  height:100px;
+  padding:40px;
+}
+.sign p{
+  padding:30px 0px 30px 30px;
+}
+
+
+
