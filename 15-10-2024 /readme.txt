@@ -1,1 +1,0 @@
-I have completed a Home login page and a student and trainer login page.
