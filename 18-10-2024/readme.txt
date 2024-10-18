@@ -1,0 +1,1 @@
+I have started an E-Commerce mobile page. I designed only half of the mobile UI and completed the styling. I learned and implemented the display style, transition, translate, radius, div, class, id, flex, overflow, bg color, color, height, and width. I understand the tags very well and what I have implemented. The project status is 40% completed.
