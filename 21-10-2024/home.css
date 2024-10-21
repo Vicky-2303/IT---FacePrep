@@ -1,0 +1,352 @@
+*{
+  margin: 0px;
+  padding:0px;
+}
+body{
+  background-color: rgb(213, 202, 202);
+}
+.head{
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  display:flex;/* To reduce the auto space and keep the buttons in the same alignment*/
+  border:none;
+}
+.logo img{
+  height: 60px;
+  width:90px;
+  
+}
+.logo{
+  background-color: black;
+  margin-left: 20px;
+  padding: 0px 20px 0px 20px;
+  border:none;
+}
+.logo:hover{
+  cursor: pointer;
+  border:1px solid white;
+}
+.address{
+  width:120px;
+  height:70px;
+  background-color: black;
+  color:white;
+  margin-left: 5px;
+  border: none;
+}
+.address:hover{
+  cursor: pointer;
+  border:1px solid white;
+}
+.dropdown{
+   height:50px;
+   margin-top:10px;
+   width:120px;
+   border:none;
+  margin-left: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.search{
+  margin-top:10px;
+  height:50px;
+  width:700px;
+  border:none;
+  padding-left:6px;
+  border-left: 1px solid black;
+  
+}
+.searchsymbol{
+  height:50px;
+  width:60px;
+  margin-top:10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border:None;
+  font-weight: bold;
+  background-color: rgb(248, 187, 95);
+  cursor: pointer;
+}
+.language{
+  width:70px;
+  height:70px;
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border:none;
+  inline-size: 60px;
+  overflow-y: auto;
+  overflow-wrap: break-word;
+}
+.language:hover{
+  cursor: pointer;
+  border:1px solid white;
+}
+.cart img{
+  height: 60px;
+  width:60px;
+  
+}
+.cart{
+  background-color: black;
+  margin-left: 10px;
+  padding:0px 30px 0px 30px;
+  border: none;
+}
+.cart:hover{
+  cursor: pointer;
+  border:1px solid white;
+}
+#accounts:hover{
+  cursor: pointer;
+  border:1px solid white; 
+}
+#accounts{
+  background-color: black;color:white; margin-left: 10px;width:100px;text-align: center;border:none;
+}
+.imageScroll{
+  border:2px solid black;
+}
+
+#slider{
+  float:left;
+}
+#slider figure{
+  position:relative;
+  width:100%;
+  margin:0;
+  
+  overflow: hidden;
+  left: 0;
+  animation: 10s slider infinite;
+}
+#slider figure img{
+  float:left;
+  width:100%;
+}
+@keyframes Container {
+  0%{
+    left: 0;
+  }
+  20%{
+    left: 0;
+  }
+  25%{
+    left: -100%;
+  }
+  45%{
+    left: -100%;
+  }
+  50%{
+    left:-200%;
+  }
+  70%{
+    left:-300%;
+  }
+  75%{
+    left:-300%
+  }
+  95%{
+    left:-300%
+  }
+}
+
+
+
+.head1{
+  border:2px solid rgb(67, 58, 104);
+  width:100%;
+  height:30px;
+  background-color: rgb(13, 3, 56);
+  
+}
+.head1 button{
+  height:30px;
+  width:100px;
+  margin-left:5px;
+  background-color:  rgb(13, 3, 56);
+  color: white;
+  border:None;
+}
+.head1 button:hover{
+  cursor: pointer;
+  transition: 0.4s;
+  border: 1px solid white;
+}
+#shopnow{
+  position: relative;
+  left:35%;
+}
+.categories{
+  border: 1px solid rgb(171, 171, 171);
+  width:100%;
+  height:30px;
+  display: flex;
+
+}
+.categories p{
+  margin:5px;
+  margin-left: 15px;
+}
+.categories span{
+  color:rgb(176, 47, 11);
+  font-weight: bold;
+}
+.categories select{
+  position: relative;
+  left:73%;
+  border:none;
+}
+.categories select:hover{
+  border:1px solid black;
+}
+.slideshow{
+  height:400px;
+        width:100%;
+        border:2px solid black;
+}
+
+.b2{
+  height: 400px;
+  width:100%;
+   background:url(offer1.jpg);
+  background-repeat: no-repeat;
+  background-size:100% 400px;
+  animation-name: a2;
+  animation: 25s a2 infinite;
+ }
+ @keyframes a2{
+   0%{
+     background:url(offer1.jpg);
+     background-size: 100% 400px;
+   
+   }
+   25%{
+     
+     background:url(offer2.jpg);
+     background-size: 100% 400px;
+   }
+   50%{
+     
+     background:url(offer3.jpg);
+     background-size: 100% 400px;
+     
+   }
+   75%{
+     background:url(offer4.jpg);
+     background-size: 100% 400px;
+   }
+   100%{
+     background:url(offer5.jpg);
+     background-size: 100% 400px;
+   }
+ }
+
+ 
+.dealbox{
+  border-top:2px solid black;
+  height:450px;
+  width:100%;
+  display:flex;
+}
+.box1{
+  border:2px solid black;
+  height:360px;
+  width: 500px;
+  margin:40px;
+  background-color: white;
+  padding: 20px;
+}
+.image-div{
+  margin-top: 30px;
+  margin-left: 8px;
+}
+.dealbox2{
+  border:2px solid black;
+  height:300px;
+  display:flex;
+  margin:15px 35px 15px 35px;
+  background-color: white;
+  display:block
+}
+
+.image-div2{
+  border: 2px solid black;
+ margin-left: 10px;
+  border:none;
+  
+}
+
+
+.foot{
+  border:2px solid black;
+  height:40px;
+  width:100%;
+  padding-top:20px;
+  text-align: center;
+  font-weight: bold;
+  background-color:  rgb(13, 3, 56);
+  color:white;
+}
+.footiconcontainer{
+  border:2px solid black;
+  height:450px;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  background-color: black;
+  border-bottom: 1px solid rgb(167, 164, 164);
+}
+.footiconcontainer p{
+  font-weight: bold;
+  color:white;
+}
+.footiconcontainer a{
+  color:white;
+  text-decoration: none;
+}
+.footiconcontainer a:hover{
+   text-decoration: underline;
+   color: white;
+}
+
+.socialmedia{
+   border:2px solid black;
+   height:200px;
+   width: 200px;
+   margin: 30px;
+  
+}
+
+.sell{
+  border: 2px solid black;
+  height:350px;
+   width: 200px;
+   margin: 30px;
+}
+.helpyou{
+  border: 2px solid black;
+  height:300px;
+   width: 200px;
+   margin: 30px;
+}
+.footImage{
+  border:2px solid black;
+  height:120px;
+  width:100%;
+  background-color: black;
+  color:white;
+  text-align: center;
+  
+}
+.footImage img{
+  height: 80px;
+  width:90px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+

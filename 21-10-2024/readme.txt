@@ -1,0 +1,1 @@
+Started the JS and created an event listener, responsive buttons, and responsive search box to redirect the web pages. Learned properties to invoke the class, id, drop box, and combo box.
