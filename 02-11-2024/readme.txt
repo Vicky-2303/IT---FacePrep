@@ -1,0 +1,1 @@
+Today, I completed a tic-tae-toe game (X-O) 100% using HTML, CSS, and JS. I have learned how to use querySellector, addListener, forEach loop, Multiple button Queries, Multiple button values, and the onclick method to change the layout using display style, grid uses, etc. 

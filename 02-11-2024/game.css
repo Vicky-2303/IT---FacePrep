@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+body{
+  height:100vh ;
+  width: 100vw;
+  background-color: #2f3542;
+  color:white;
+  display:flex;/*single dimension means it display either row or column*/
+  justify-content: center;
+  align-items: center;/**/
+  flex-direction: column;/*to change the flex directions*/
+}
+.container{
+  /*background-color: red;*/
+  display: grid;/*two dimension means it display in both row and columns*/
+  grid-template-columns: repeat(3,auto);/*to get a box shape*/
+}
+.box{
+  width: 100px;
+  height:100px;
+  border: 2px solid yellow;
+  box-shadow: 0 0 0 2px;
+  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  font-size: 50px;
+  color:white;
+}
+
+#status{
+  padding: 20px;
+  font-size: 25px;
+  font-weight: 500;
+}
+#restart{
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  background-color: #ff4757;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.turn button{
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  background-color: #ff4757;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.turn .b2{
+  background-color: #48d345;
+}
+
+.win{
+  animation: winAnimation ease-in-out 1s infinite;
+}
+.win2{
+  animation: winAnimation2 ease-in-out 1s infinite;
+}
+@keyframes winAnimation{
+  0%{background-color: #fb8b8b;}
+  100%{background-color: #a12f2f;}
+}
+
+@keyframes winAnimation2{
+  0%{background-color: #5cce5a;}
+  100%{background-color: #1e561e;}
+}
